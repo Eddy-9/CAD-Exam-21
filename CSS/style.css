@@ -232,3 +232,17 @@ h1
     font-size: 20px;
 }
 }
+
+.headerF
+{
+    padding-top: 2%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
