@@ -1,5 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@500;700&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
 body
 {
-    background-color: #AAAAAA;
-    border: 2px solid #000000;
+    background-color: #1F98F0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #d3caca;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+
+a:hover
+{
+    border-color: white;
+    color: white;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.headerC
+{
+    padding-top: 2%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Hungry
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 1s;
+    
+}
+
+.Hungry:hover
+{
+    transform: scale(1.2);
+}
+
+.a_Hungry
+{
+    color: white;
+}
+
+.a_Hungry:hover
+{
+    border-color: transparent;
+}
+
+.menu
+{
+    margin-left: 7%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+.headerButton
+{
+    margin-left: 15%;
+    width: 30%;
+    display: flex;
+    transition: 1s;
+    margin-right: -12%;
+    text-align: center;
+    display: block; text-align: center;
+    min-width: 115px;
+    transition: 1s;
+}
+
+.headerButton:hover
+{
+    transform: scale(1.2);
+}
+
+
+.a_headerButton
+{
+    border-radius: 20%;
+	background:white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+	padding: 5% 5%;
+	text-decoration: none;
+}
+
+
+
+.a_headerButton:hover
+{
+    color: black;
+}
+
+.mainC
+{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_left
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: flex-start;
+}
+
+.mainButtons
+{
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20%;
+    
+}
+
+.a_mainButtons
+{
+    padding: 0% 1%;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.a_mainButtons:hover
+{
+    transform: scale(1.1);
+    border-color: transparent;
+}
+
+.main_right
+{
+    width: 45%;
+    display: flex;
+    
+}
+
+h1
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 760px)
+{
+    .headerC
+    {
+        padding-top: 2%;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+
+
+    .menu
+    {
+        padding: 3% 0%;
+        margin-left: 0%;
+        width: 100%;
+        font-size: 15px;
+        
+    }
+
+    .headerButton
+    {
+        padding: 3% 0%;
+        margin-left: 0%;
+        width: 30%;
+        margin-right: 0%;
+        
+    }
+
+    .mainC
+{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width: 70%;
+    flex-direction: column;
+}
+
+.main_left
+{
+    width: 100%;
+    font-size: 12px;
+    align-items: flex-start;
+}
+
+.main_right
+{
+    width: 100%;
+    padding-top: 10%;
+}
+
+h1
+{
+    font-size: 20px;
+}
 }
